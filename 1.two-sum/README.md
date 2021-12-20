@@ -61,4 +61,7 @@ Output: [0,1]
 
 Can you come up with an algorithm that is less than O(n2) time complexity?
 
-## 進階
+## 進階絲路
+
+定義一個dictionary，依序遍歷陣列元素，若目標值減去當前元素的值無法在dictionary中找到，則於dictionary中塞入 { 當前元素:index }，若可找到，則回傳求得值:[當前元素index, 取出的dictionary value]
+
