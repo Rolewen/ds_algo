@@ -10,8 +10,6 @@ array | hash-table
 ### Companies
 adobe | airbnb | amazon | apple | bloomberg | dropbox | facebook | linkedin | microsoft | uber | yahoo | yelp
 
----
-
 ## Description
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -48,9 +46,10 @@ Output: [0,1]
 - -109 <= target <= 109
 - Only one valid answer exists.
 
----
 
-Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+## Follow-up
+
+Can you come up with an algorithm that is less than O(n2) time complexity?
 
 ---
 
@@ -60,4 +59,4 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 ### 我的絲路
 
-由陣列中第一位數開始，定義為第i位數，並將第i位數與第i+n(n>=1)位數相加，若結果與目標值相符，則[i, i+n]為結果。
+由陣列中第一位數開始，定義為第i位數，並將第i位數與第i+n(n>=1)位數相加，若皆不相符，則由陣列中第二位數開始進行下一輪比對(i+1)；若結果與目標值相符，回傳求得值[i, i+n]。
