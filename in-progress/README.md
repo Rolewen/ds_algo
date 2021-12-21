@@ -1,8 +1,7 @@
 # [1. Two Sum](https://leetcode.com/problems)
 
-|Category  |Difficulty  |Likes   |Dislikes  |
-|----------|------------|--------|----------|
-|          |            |        |          |
+### Category / Difficulty
+algorithms / Easy
 
 ### Tags
 
