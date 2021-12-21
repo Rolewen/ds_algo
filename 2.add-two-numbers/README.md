@@ -1,8 +1,8 @@
 # [1. Two Sum](https://leetcode.com/problems/add-two-numbers/)
 
-|Category  |Difficulty  |Likes   |Dislikes  |
-|----------|------------|--------|----------|
-|algorithms|Easy(47.97%)|27221   |872       |
+|Category  |Difficulty     |Likes      |Dislikes   |
+|----------|---------------|-----------|-----------|
+|algorithms|Medium (37.33%)|15072      |3283       |
 
 ### Tags
 linked-list | math
