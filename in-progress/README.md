@@ -1,4 +1,4 @@
-# [1. Two Sum](https://leetcode.com/problems)
+# [](https://leetcode.com/problems)
 
 ### Category / Difficulty
 algorithms / Easy
