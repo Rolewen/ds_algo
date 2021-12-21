@@ -79,9 +79,9 @@
 var findMedianSortedArrays = function (nums1, nums2) {
 	if (!nums1.length && !nums2.length) return 0;
 
-	const getResult = arr => {
+	const getResult = (arr, sorted = true) => {
 		if (arr.length === 1) return arr[0];
-		const tmpArr = arr.sort((a, b) => a - b);
+		const tmpArr = sorted ? arr : arr.sort((a, b) => a - b);
 		const idx = Math.floor(tmpArr.length / 2);
 
 		if (arr.length % 2) {
@@ -96,6 +96,6 @@ var findMedianSortedArrays = function (nums1, nums2) {
 	if (!nums1.length) return getResult(nums2);
 	if (!nums2.length) return getResult(nums1);
 
-	return getResult([...nums1, ...nums2]);
+	return getResult([...nums1, ...nums2], false);
 };
 // @lc code=end
