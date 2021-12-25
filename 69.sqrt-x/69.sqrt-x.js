@@ -55,24 +55,17 @@ var mySqrt = function (x) {
 	if (x === 0) return 0;
 	if (x <= 3) return 1;
 
-	let left = 0;
-	let right = x;
-	let mid = 0;
+	let res = 0;
+	const end = Math.floor(x / 2);
 
-	while (left <= right) {
-		mid = (left + right) / 2;
-		let res = mid * mid;
-		if (res === x) {
-			return mid;
-		} else if (res < x) {
-			left = mid + 1;
-		} else {
-			right = mid - 1;
+	for (let i = 2; i <= end; i++) {
+		const right = i + 1;
+		if (i * i <= x && right * right > x) {
+			res = i;
+			break;
 		}
 	}
 
-	console.log(mid, right, left);
-
-	return Math.floor(left) + 1;
+	return res;
 };
 // @lc code=end
