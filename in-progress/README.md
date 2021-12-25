@@ -12,6 +12,8 @@ algorithms / Easy
 ## Description
 
 
+![image info](./img/e1.jpg)
+
 ## Constraints
 
 
