@@ -1,4 +1,4 @@
-# [](https://leetcode.com/problems)
+# [169.majority-element](https://leetcode.com/problems/majority-element/)
 
 ### Category / Difficulty
 algorithms / Easy
