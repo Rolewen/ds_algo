@@ -1,46 +1,49 @@
-# [203.remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/)
+# [203.remove-linked-list-elements](https://leetcode.com/problems/isomorphic-strings/)
 
 ### Category / Difficulty
 algorithms / Easy
 
 ### Tags
-linked-list
+hash-table
 	 		
 ### Companies
-Unknown
+linkedin
 
 ## Description
-Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+Given two strings s and t, determine if they are isomorphic.
+
+Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+
+ 
 
 Example 1:
-
-![image info](./img/203e1.jpg)
 ```
-Input: head = [1,2,6,3,4,5,6], val = 6
-Output: [1,2,3,4,5]
+Input: s = "egg", t = "add"
+Output: true
 ```
 
 Example 2:
 ```
-Input: head = [], val = 1
-Output: []
+Input: s = "foo", t = "bar"
+Output: false
 ```
 
 Example 3:
 ```
-Input: head = [7,7,7,7], val = 7
-Output: []
-```
-
+Input: s = "paper", t = "title"
+Output: true
+``` 
 ## Constraints
-- The number of nodes in the list is in the range [0, 104].
-- 1 <= Node.val <= 50
-- 0 <= val <= 50
+- 1 <= s.length <= 5 * 104
+- t.length == s.length
+- s and t consist of any valid ascii character.
 
 ## 簡而言之，它要的是
-給予一個鏈結串列，刪除節點中值與參數val相等的node，並回傳修改後的linked list
+比對兩字串，檢查是否為同構字，若為同構字，表示這兩個字串的每個字皆可以相互對應
 
 ## 絲路
-使用雙指標，一個紀錄前一節點(prev)，一個紀錄當前節點(head)
-若目前元素與參數val相等表示需要被刪除，則前一節點指向當下節點的下一個節點，即可刪除目前元素
+使用兩個map分別記錄兩個字串裡的字元，並依序編列index，s字串第一個字元index為0，第二個字元若與第一字元不相同，則其index為1，依此類推
 
+若兩個字串出現的index皆相同，表示這兩個字串可以互相取代，為同構字
