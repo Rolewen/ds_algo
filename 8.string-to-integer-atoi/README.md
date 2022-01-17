@@ -1,7 +1,7 @@
 # [](https://leetcode.com/problems)
 
 ### Category / Difficulty
-algorithms / Easy
+algorithms / Medium
 
 ### Tags
 
