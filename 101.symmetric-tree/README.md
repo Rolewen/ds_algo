@@ -56,3 +56,10 @@ Output: false
 
 若兩邊子樹都已經為空，代表已經訪問到樹葉節點，且都相等，則需開始檢查另一半(左半部要開始檢查右側節點、右半部要開始檢查左側節點)
 
+## Follow up
+Could you solve it both recursively and iteratively?
+
+## 進階絲路
+遞迴與非遞迴解法皆寫於程式中
+遞迴：101-2.symmetric-tree.js
+非遞迴：101.symmetric-tree.js
