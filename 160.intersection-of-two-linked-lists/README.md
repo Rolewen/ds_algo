@@ -79,8 +79,8 @@ Explanation: The two lists do not intersect, so return null.
 ## 簡而言之，它要的是
 檢查兩個鏈結串列是否相交的node，若有則回傳該node，若無則回傳null
 
-## 絲路
+## 思路
 先檢查兩個linked list長度，指標起始位置到終點位置長度要一致，接著再兩兩相比，若皆指向同一個node表示其為相交節點
 
-## 進階絲路
+## 進階思路
 

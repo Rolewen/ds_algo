@@ -39,7 +39,7 @@ Explanation: There is no common prefix among the input strings.
 ## 簡而言之，它要的是
 查找陣列中每個字，共同且最長的prefix pattern，若沒有則回傳空字串
 
-## 絲路
+## 思路
 條件裡面陣列長度可能為空，所以若沒有資料則直接回傳空字串
 
 預設prefix為陣列中第一個字串

@@ -47,7 +47,7 @@ Explanation: [1,3] and [3,1] are both a height-balanced BSTs.
 
 二元搜尋樹是其左子樹中的後代皆小於根，右子樹中的後代皆大於根，且其左右子樹皆為二元搜尋樹
 
-## 絲路
+## 思路
 定義mid, start, end
 
 mid為陣列中中央的數值，其為根
@@ -77,5 +77,5 @@ mid= index 3 = 4
  1   3   5   7
 
 
-## 進階絲路
+## 進階思路
 

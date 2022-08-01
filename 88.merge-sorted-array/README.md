@@ -52,7 +52,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 
 將陣列2合併至陣列1中，並依照數值由小到大排序
 
-## 絲路
+## 思路
 
 分兩步驟做，先將陣列2元素加入於陣列1中，接著再使用泡沫排序法對陣列1進行排序
 
@@ -61,7 +61,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 Can you come up with an algorithm that runs in O(m + n) time?
 
 
-## 進階絲路
+## 進階思路
 
 從兩個陣列中最後一個數字開始相互比對，較大的加入尾端
 

@@ -44,7 +44,7 @@ Output: [1,1]
 ## 簡而言之，它要的是
 回傳pascal's triangle第index row的數列
 
-## 絲路
+## 思路
 使用雙迴圈計算數值
 
 外層迴圈為列

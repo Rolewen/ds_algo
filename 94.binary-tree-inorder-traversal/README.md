@@ -38,7 +38,7 @@ Output: [1]
 ## 簡而言之，它要的是
 依照inorder次序拜訪二元樹，輸出依序經過的節點
 
-## 絲路
+## 思路
 由當前節點(根)開始，一路往左找，找到樹葉節點，再回到父層，接著切至右層子節點，重複前述步驟。
 
 ---
@@ -57,6 +57,6 @@ Output: [1]
 ## Follow up
 Recursive solution is trivial, could you do it iteratively?
 
-## 進階絲路
+## 進階思路
 遞迴解法與非遞迴解法皆有寫於94-2.binary-tree-inorder-traversal裡
 

@@ -40,7 +40,7 @@ Output: true
 ## 簡而言之，它要的是
 檢查一數字是否為3的次方值
 
-## 絲路
+## 思路
 依序將該數值除以3，若該數最終等於3表示其為3的次方值，若該數小於3表示非3的次方
 
 ## Follow up: Could you solve it without loops/recursion?

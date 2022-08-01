@@ -50,14 +50,14 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 110=>不是迴文
 -101=>不是迴文
 
-## 絲路
+## 思路
 將數字先轉為字串，定義左右指標，左指標由0開始往右移動，右指標由最後一個字元開始往左移動
 依序移動左右指標，直至左右指標交會，途中若有一字元不相等則表示非迴文
 
 ## Follow up
 Could you solve it without converting the integer to a string?
 
-## 進階絲路
+## 進階思路
 依序由個位數開始取出數字，並將其擺至最高位，達到反轉效果，邏輯如下述
 
 假設數字為321，回傳的變數為res

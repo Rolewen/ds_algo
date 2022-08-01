@@ -51,7 +51,7 @@ b可完全對應到cat
 
 且pattern的順序與字串順序皆相同，因此這個範例中字串跟pattern是雙射關係
 
-## 絲路
+## 思路
 使用mapping表給予字串和pattern中不同字元/單字一個數值
 
 例如會給數值1代表pattern中的a, 也代表字串中的dog

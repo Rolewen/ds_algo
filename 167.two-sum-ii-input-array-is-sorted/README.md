@@ -45,7 +45,7 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 ## 簡而言之，它要的是
 給予一個目標數，其值由陣列中兩數相加而成，回傳這兩數在陣列中的index，另需注意此陣列index由1開始計算
 
-## 絲路
+## 思路
 定義一mapping表，紀錄出現過的數字與其index，
 若目標值減掉當前元素，可在mapping表中找到，
 則當前元素位置與mapping表另一數所存的index則為結果值

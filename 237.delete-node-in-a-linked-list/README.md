@@ -42,5 +42,5 @@ Explanation: You are given the third node with value 1, the linked list should b
 ## 簡而言之，它要的是
 實作一個刪除node的function
 
-## 絲路
+## 思路
 將當前node的val改為下一個節點的val，並將當前node的下一個指標指向下下個node

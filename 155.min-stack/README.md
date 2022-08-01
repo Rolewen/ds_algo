@@ -50,7 +50,7 @@ minStack.getMin(); // return -2
 ## 簡而言之，它要的是
 實作stack所需的function: push, pop, top, getMin
 
-## 絲路
+## 思路
 
 建構子: 定義一個空陣列
 

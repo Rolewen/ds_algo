@@ -43,7 +43,7 @@ Output: []
 ## 簡而言之，它要的是
 反轉鏈結串列
 
-## 絲路
+## 思路
 使用tmp, curr, next，來操作以及定位當前node與下一個node
 
 curr:指向當前要被串接的node
@@ -61,5 +61,5 @@ res:已經串接好的反轉串列
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
 
-## 進階絲路
+## 進階思路
 

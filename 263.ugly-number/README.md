@@ -43,7 +43,7 @@ Explanation: 14 is not ugly since it includes the prime factor 7.
 ## 簡而言之，它要的是
 檢查一數字其因式分解後，是否只含有2,3,5這幾個因子，若是則表示為ugly number
 
-## 絲路
+## 思路
 因ugly number是一個positive integer，因此若n為負數表示一定不是ugly number，可以直接排除
 另外1沒有任何的因子，所以題目有說明其為ugly number，若n為1也可直接判定為true
 

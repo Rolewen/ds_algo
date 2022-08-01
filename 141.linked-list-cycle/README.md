@@ -54,7 +54,7 @@ Explanation: There is no cycle in the linked list.
 ## 簡而言之，它要的是
 檢查是否為循環鏈結串列
 
-## 絲路
+## 思路
 使用兩個指標，慢指標一個一次走一格，快指標一個一次走兩格
 
 若為循環串列，快指標會追上慢指標，當快慢指標相等則表示為循環串列
@@ -65,5 +65,5 @@ Explanation: There is no cycle in the linked list.
 ## Follow up
 Can you solve it using O(1) (i.e. constant) memory?
 
-## 進階絲路
+## 進階思路
 

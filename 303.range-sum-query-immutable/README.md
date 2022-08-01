@@ -43,7 +43,7 @@ numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
 ## 簡而言之，它要的是
 實作一物件prototype，可計算傳入該物件中的指定陣列範圍加總
 
-## 絲路
+## 思路
 程式碼中有兩種solution
 
 ** solution 1 **

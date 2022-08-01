@@ -47,7 +47,7 @@ Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0
 
 假設範圍為0~3，陣列內容為0,1,3，則表示消失的數字為2
 
-## 絲路
+## 思路
 使用迴圈將i由0開始檢查，若i值不存在於陣列中，則表示其為消失的數字
 
 ## Follow up

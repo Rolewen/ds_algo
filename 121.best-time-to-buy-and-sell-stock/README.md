@@ -40,7 +40,7 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 ## 簡而言之，它要的是
 找出買進賣出價位，回傳最大化的收益
 
-## 絲路
+## 思路
 定義最小值min，預設為js中最大的數值
 定義profit計算收益
 

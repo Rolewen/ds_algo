@@ -53,7 +53,7 @@ Explanation: Since the tree is empty, there are no root-to-leaf paths.
 ## 簡而言之，它要的是
 查看從root至leaf，是否有其中一條路徑的數字加總總合為要求的路徑長度(targetNum)
 
-## 絲路
+## 思路
 使用遞迴方式解，分別查找左右子樹並搭配targetNum依序減去走過的路徑
 
 若root為null，則回傳false，表示路徑不存在

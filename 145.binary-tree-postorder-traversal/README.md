@@ -44,7 +44,7 @@ Output: [1]
 ## 簡而言之，它要的是
 使用後序(左右中)走訪二元樹
 
-## 絲路
+## 思路
 使用遞迴撰寫
 
 若左子樹存在，則遞迴傳入左子樹
@@ -55,7 +55,7 @@ Output: [1]
 ## Follow up
 Recursive solution is trivial, could you do it iteratively?
 
-## 進階絲路
+## 進階思路
 遞迴解法在145.binary-tree-postorder-traversal.js
 
 非遞迴解法寫在145-2.binary-tree-postorder-traversal.js

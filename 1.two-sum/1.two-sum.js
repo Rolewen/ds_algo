@@ -13,7 +13,7 @@
 var twoSum = function (nums, target) {
 	let result = [];
 
-	// 原始絲路 O(n^2)
+	// 原始思路 O(n^2)
 	// for (var i = 0; i < nums.length; i++) {
 	// 	for (var j = i + 1; j < nums.length; j++) {
 	// 		if (nums[i] + nums[j] === target) {
@@ -22,7 +22,7 @@ var twoSum = function (nums, target) {
 	// 	}
 	// }
 
-	// 進階絲路 O(n)
+	// 進階思路 O(n)
 	let map = {};
 	for (let i = 0; i < nums.length; i++) {
 		const tmpN = target - nums[i];

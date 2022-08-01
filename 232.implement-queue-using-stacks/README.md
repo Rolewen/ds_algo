@@ -49,7 +49,7 @@ myQueue.empty(); // return false
 ## 簡而言之，它要的是
 實作FIFO Queue
 
-## 絲路
+## 思路
 push: 將數值加入陣列尾端
 pop: 回吐陣列中第一位元素，並將此元素從陣列中移除
 peek: 回吐陣列中第一位元素

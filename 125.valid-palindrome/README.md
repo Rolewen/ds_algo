@@ -45,7 +45,7 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 ## 簡而言之，它要的是
 移除字串中非英文與數字的字元，並檢查這字串是否為回文
 
-## 絲路
+## 思路
 將字串改為小寫
 使用正則表達式移除非英數字的字元
 新增一變數，紀錄反轉後的字串

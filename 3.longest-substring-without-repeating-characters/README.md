@@ -44,9 +44,9 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 找出字串中的最長子字串，子字串各自元不能重複
 
 
-## 絲路
+## 思路
 
 由第一位字元開始依序跟第i+1位字元進行比對，若不重複則將子字串記錄下來，若當前子字串長度超越原始紀錄，則須將最長長度也記錄下來，最後將最長長度記錄輸出。
 
-## 進階絲路
+## 進階思路
 

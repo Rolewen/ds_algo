@@ -35,7 +35,7 @@ Output: false
 ## 簡而言之，它要的是
 檢查二元樹是否為對稱二元樹
 
-## 絲路
+## 思路
 使用兩個指標l, r，l依序走訪左子樹直至檢查完最後一節點，再返回左半部的右子樹，r依序走訪右子樹直至檢查完最後一節點，再返回右半部的左子樹，確認雙方node值皆相等。
 
 ---
@@ -59,7 +59,7 @@ Output: false
 ## Follow up
 Could you solve it both recursively and iteratively?
 
-## 進階絲路
+## 進階思路
 遞迴與非遞迴解法皆寫於程式中
 遞迴：101-2.symmetric-tree.js
 非遞迴：101.symmetric-tree.js

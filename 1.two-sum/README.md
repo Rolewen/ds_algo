@@ -51,7 +51,7 @@ Output: [0,1]
 
 給予一個陣列和一個數字，該數字由陣列中其中兩數相加而成，請回傳一個陣列，內容為這兩數字在陣列中的index。
 
-## 絲路
+## 思路
 
 由陣列中第一位數開始，定義為第i位數，並將第i位數與第i+n(n>=1)位數相加，若皆不相符，則由陣列中第二位數開始進行下一輪比對(i+1)；若結果與目標值相符，回傳求得值[i, i+n]。
 
@@ -61,7 +61,7 @@ Output: [0,1]
 
 Can you come up with an algorithm that is less than O(n2) time complexity?
 
-## 進階絲路
+## 進階思路
 
 定義一個mapping表(dictionary)，依序遍歷陣列元素
 
